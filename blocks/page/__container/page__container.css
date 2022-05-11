@@ -1,0 +1,15 @@
+.page__container {   
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 28px 0 24px;      
+}
+
+@media screen and (max-width: 580px) {
+     .page__container {
+       padding: 16px 0 24px;
+}
+}

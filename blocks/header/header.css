@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    max-width: 1184px;
+    font-weight: normal;
+    align-items: center;
+}
+@media screen and (max-width: 1170px) {
+    .header {
+        max-width: 928px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .header {
+        max-width: 928px;
+        }
+}

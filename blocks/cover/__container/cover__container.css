@@ -1,0 +1,11 @@
+.cover__container {
+    padding:0 48px ;
+    max-width: 1184px;
+    max-height: 740px;
+}
+
+@media screen and (max-width: 1170px) {
+    .cover__container {
+        padding: 0;
+    }
+} 
