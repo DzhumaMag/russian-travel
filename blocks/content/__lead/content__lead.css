@@ -1,21 +1,31 @@
 .content__lead {
     padding: 56px 148px 0;
 }
+
 @media screen and (max-width: 1170px) {
     .content__lead{
         padding: 48px 48px 0;
         max-width: 984px;
     }
 }
+
 @media screen and (max-width: 860px) {
     .content__lead{
         padding: 48px 0 0;
         max-width: 928px;
     }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 680px) {
     .content__lead{
-        padding: 32px 0 0;
-        max-width: 768px;
+        padding: 32px 0 0; 
+         max-width: 768px;
+    }
+}
+
+@media screen and (max-width:px) {
+    .content__lead{
+        padding: 0;
+        max-width: 320px;
     }
 }
