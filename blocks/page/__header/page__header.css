@@ -1,18 +1,15 @@
 .page__header  {
     padding: 0  48px 0;
 }
+
 @media screen and (max-width: 860px) {
-    .page__header  {
+    .page__header {
         padding: 0  24px 0;
     }
 }
+
 @media screen and (max-width: 440px) {
-    .page__header  {
+    .page__header {
         padding: 0  16px 0;
 }  
-}
-@media screen and (max-width: 320px) {
-    .page__header  {
-    padding: 0  16px 0;
-}
 }

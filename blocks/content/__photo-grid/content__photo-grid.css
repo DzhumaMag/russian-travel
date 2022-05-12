@@ -2,20 +2,14 @@
     margin: 0 auto;
  }
 
- @media screen and (max-width: 1220px) {
+@media screen and (max-width: 1220px) {
     .content__photo-grid {
         padding: 0 24px;
-     }
-}
-
-@media screen and (max-width: 860px) {
-    .content__photo-grid {
-        padding: 0 24px;
-     }
+    }
 }
 
 @media screen and (max-width: 580px) {
     .content__photo-grid {
         padding: 0 16px;
-     }
+    }
 }

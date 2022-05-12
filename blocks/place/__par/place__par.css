@@ -6,24 +6,32 @@
     font-weight: 400;
 }
 
+.place__par:last-child {
+    padding-bottom: 0;
+}
+
 @media screen and (max-width: 1170px) {
     .place__par {
         padding: 0 0 27px;
     }
 }
+
 @media screen and (max-width: 960px) {
     .place__par {
-        padding: 0 0 25px;
+        max-width: 352px;
+        padding: 0 24px 25px 0;
         font-size: 16px;
         line-height: 26px;
         font-weight: 400;
     }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 780px) {
     .place__par{
         padding: 0 16px 12px;
           }
 }
+
 @media screen and (max-width: 390px) {
     .place__par {
            font-size: 16px;
