@@ -1,13 +1,26 @@
 .place__website {
     margin: 0;
-    padding: 0;
+    padding: 0 0 48px 40px;
     font-size: 12px;
     align-self:end;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1170px) {
+    .place__website{
+        padding: 0 0 48px 32px ;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .place__website{
+        padding: 0 0 48px 28px ;
+    }
+    
+}
+
 @media screen and (max-width: 600px) {
     .place__website{
-        padding: 0 0 0 16px ;
-        max-width: 228px;
-    }
+        padding: 0 0 32px 16px ;
+    } 
 }

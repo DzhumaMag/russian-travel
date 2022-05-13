@@ -3,8 +3,9 @@
     justify-content:space-between;
     position: relative;
     max-width: 1184px;
-    font-weight: normal;
+    font-weight: 400;
     align-items: center;
+
 }
 @media screen and (max-width: 1170px) {
     .header {

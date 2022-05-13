@@ -1,6 +1,8 @@
 .footer__copyright {
     font-size: 14px;
     line-height: 16px;
+    font-weight: 400;
+    align-self: flex-end;
     font-family: 'Inter', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +10,9 @@
 
 @media screen and (max-width: 750px) {
     .footer__copyright {
-        font-size: 14px;
+        align-self: flex-start;
+        padding: 48px 0 0 ;
+        font-size: 14px; 
         line-height: 14px;
 }
 }

@@ -3,22 +3,10 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1170px) {
-    .footer {
-        max-width: 928px;
-    }
-}
 
 @media screen and (max-width: 750px) {
     .footer{
         flex-direction: column;
-        gap:48px;
-    }
+    } 
 }
 
-@media screen and (max-width: 580px) {
-    .footer{
-        flex-direction: column;
-        gap:48px;
-    }
-}

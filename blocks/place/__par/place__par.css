@@ -1,9 +1,9 @@
 .place__par {
-    margin: 0;
-    padding: 0 0 26px;
+    margin: 0;   
     font-size: 18px;
     line-height: 29px;
     font-weight: 400;
+    padding: 0 0 26px 40px;
     box-sizing: border-box;
 }
 
@@ -13,30 +13,27 @@
 
 @media screen and (max-width: 1170px) {
     .place__par {
-        padding: 0 0 27px;
+        padding: 0 0 27px 32px;
     }
 }
 
 @media screen and (max-width: 960px) {
     .place__par {
-        max-width: 352px;
-        padding: 0 24px 25px 0;
-        font-size: 16px;
+        padding: 0 0 25px 28px;
+        font-size: 18px;
         line-height: 26px;
-        font-weight: 400;
     }
 }
 
-@media screen and (max-width: 780px) {
+ @media screen and (max-width: 740px) {
     .place__par{
-        padding: 0 16px 12px;
-        grid-column: 1;
+         padding: 32px 16px 25px; 
     }
-}
+} 
 
 @media screen and (max-width: 390px) {
     .place__par {
            font-size: 16px;
            line-height: 26px;
     }
-}
+} 

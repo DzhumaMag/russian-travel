@@ -2,24 +2,29 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 460px 1fr;
-    gap: 48px 40px;
+    grid-template-rows: auto auto;
+    padding-bottom: 80px;
 }
 
+.place:last-of-type {
+    padding-bottom: 0;
+}
 @media screen and (max-width: 1170px) {
     .place{
         grid-template-columns: 440px 1fr;
-        gap: 48px 32px;
     }
 }
-@media screen and (max-width: 960px) {
+ @media screen and (max-width: 960px) { 
     .place{
         grid-template-columns: 340px 1fr;
-        gap: 48px 28px;
+        padding-bottom: 73px; 
     }
 }
 
 @media screen and (max-width: 740px) {
     .place{
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        padding-bottom: 50px;
     }
 }
