@@ -1,8 +1,13 @@
 .content__photo-grid {
     margin: 0 auto;
  }
+ @media screen and (max-width: 1220px) {
+    .content__photo-grid {
+        padding: 0 48px;
+    }
+}
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 990px) {
     .content__photo-grid {
         padding: 0 24px;
     }
